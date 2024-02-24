@@ -188,7 +188,7 @@ export const historiaCumpleañosFantasia = [
   },
   {
     id: 12,
-    desripcion: "Después de disfrutar del festival, decides explorar las Montañas Azules, un lugar lleno de misterios y peligros. ¿Qué encuentras en tu aventura?",
+    descripcion: "Después de disfrutar del festival, decides explorar las Montañas Azules, un lugar lleno de misterios y peligros. ¿Qué encuentras en tu aventura?",
     opciones: [
       { id:1,texto: "Encuentras una antigua espada mágica que te concede el título de Caballero de Aetheria.", siguienteId: 13 },
       { id:2,texto: "Te encuentras con una criatura legendaria que te desafía a una prueba de valor.", siguienteId: 14 }
@@ -210,3 +210,275 @@ export const historiaCumpleañosFantasia = [
     opciones: []
   }
 ];
+
+export const historiaIntriga = [
+  {
+    id: 1,
+    descripcion: "Te despiertas en una habitación oscura y desconocida. No recuerdas cómo llegaste allí. Solo ves una puerta cerrada frente a ti. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Examinar la habitación en busca de pistas.", siguienteId: 2 },
+      { id: 2, texto: "Intentar abrir la puerta.", siguienteId: 3 },
+      { id: 3, texto: "Gritar pidiendo ayuda.", siguienteId: 4 }
+    ]
+  },
+  {
+    id: 2,
+    descripcion: "Al examinar la habitación, encuentras una nota debajo de la almohada. La nota dice: 'No confíes en nadie. Tu vida está en peligro'. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Guardar la nota y seguir explorando la habitación.", siguienteId: 5 },
+      { id: 2, texto: "Ignorar la nota y continuar intentando abrir la puerta.", siguienteId: 6 }
+    ]
+  },
+  {
+    id: 3,
+    descripcion: "Intentas abrir la puerta, pero está cerrada con llave. Sin embargo, al hacerlo, escuchas pasos acercándose desde el otro lado. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Esconderte y observar quién viene.", siguienteId: 7 },
+      { id: 2, texto: "Seguir intentando abrir la puerta desesperadamente.", siguienteId: 8 }
+    ]
+  },
+  {
+    id: 4,
+    descripcion: "Al gritar pidiendo ayuda, escuchas un ruido sospechoso detrás de ti. Antes de que puedas reaccionar, te golpean en la cabeza y pierdes el conocimiento.",
+    opciones: []
+  },
+  {
+    id: 5,
+    descripcion: "Mientras exploras la habitación, encuentras una llave escondida en un cajón. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Usar la llave para intentar abrir la puerta.", siguienteId: 9 },
+      { id: 2, texto: "Esconder la llave y continuar buscando pistas.", siguienteId: 10 }
+    ]
+  },
+  {
+    id: 6,
+    descripcion: "Ignoras la nota y continúas intentando abrir la puerta. Después de varios intentos, logras abrir la puerta y te encuentras en un pasillo oscuro. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Explorar el pasillo.", siguienteId: 11 },
+      { id: 2, texto: "Volver a la habitación y buscar más pistas.", siguienteId: 12 }
+    ]
+  },
+  {
+    id: 7,
+    descripcion: "Te escondes detrás de una cortina y observas a una figura misteriosa entrar en la habitación. La figura parece buscar algo y luego se va sin notarte. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Seguir a la figura para averiguar más.", siguienteId: 13 },
+      { id: 2, texto: "Regresar a la habitación y analizar lo que has aprendido.", siguienteId: 14 }
+    ]
+  },
+  {
+    id: 8,
+    descripcion: "Sigues intentando abrir la puerta desesperadamente, pero antes de que puedas hacerlo, la puerta se abre de golpe y te encuentras cara a cara con un desconocido armado. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Intentar negociar con el desconocido.", siguienteId: 15 },
+      { id: 2, texto: "Huir por el pasillo.", siguienteId: 16 }
+    ]
+  },
+  {
+    id: 9,
+    descripcion: "Usas la llave para abrir la puerta y te encuentras en un pasillo oscuro. Mientras exploras el pasillo, escuchas pasos acercándose. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Esconderte y observar quién viene.", siguienteId: 17 },
+      { id: 2, texto: "Seguir explorando el pasillo.", siguienteId: 18 }
+    ]
+  },
+  {
+    id: 10,
+    descripcion: "Decides esconder la llave y continuar buscando pistas en la habitación. Encuentras un diario antiguo que parece contener información importante. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Leer el diario y descubrir su contenido.", siguienteId: 19 },
+      { id: 2, texto: "Guardar el diario y continuar buscando pistas.", siguienteId: 20 }
+    ]
+  },
+  {
+    id: 11,
+    descripcion: "Exploras el pasillo y encuentras una puerta al final. Al abrirla, te encuentras en una habitación iluminada con una figura misteriosa esperándote. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Hablar con la figura y averiguar más.", siguienteId: 21 },
+      { id: 2, texto: "Atacar a la figura para defenderte.", siguienteId: 22 }
+    ]
+  },
+  {
+    id: 12,
+    descripcion: "Vuelves a la habitación y encuentras una nota que dice: 'No puedes escapar de tu destino'. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Investigar más sobre el significado de la nota.", siguienteId: 23 },
+      { id: 2, texto: "Ignorar la nota y buscar otra salida.", siguienteId: 24 }
+    ]
+  },
+  {
+    id: 13,
+    descripcion: "Sigues a la figura y descubres un pasadizo secreto que conduce a una habitación oculta. Dentro de la habitación, encuentras evidencia de un complot siniestro. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Informar a las autoridades sobre el complot.", siguienteId: 25 },
+      { id: 2, texto: "Tratar de resolver el misterio por tu cuenta.", siguienteId: 26 }
+    ]
+  },
+  {
+    id: 14,
+    descripcion: "Regresas a la habitación y analizas lo que has aprendido. Te das cuenta de que estás atrapado en un juego de intriga y misterio. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Buscar una salida y escapar del lugar.", siguienteId: 27 },
+      { id: 2, texto: "Investigar más para descubrir la verdad.", siguienteId: 28 }
+    ]
+  },
+  {
+    id: 15,
+    descripcion: "Intentas negociar con el desconocido, pero antes de que puedas decir algo, te atacan y te llevan a un lugar desconocido. Tu destino está en manos de tus captores.",
+    opciones: []
+  },
+  {
+    id: 16,
+    descripcion: "Huyes por el pasillo y encuentras una salida. Sales corriendo del lugar, pero no estás seguro de si estás a salvo. te refugias en un arbol pero escuchas sonidos extraños... Son una manada de lobos hambrientos... luego de tres dias encontraron tus restos :/",
+    opciones: []
+  },
+  {
+    id: 17,
+    descripcion: "Te escondes y observas a un grupo de personas armadas entrar en el pasillo. Parecen estar buscándote. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Esperar a que se vayan y luego seguir explorando.", siguienteId: 29 },
+      { id: 2, texto: "Intentar escapar mientras tienen la guardia baja.", siguienteId: 30 }
+    ]
+  },
+  {
+    id: 18,
+    descripcion: "Sigues explorando el pasillo y encuentras una salida. Sales corriendo del lugar pero era una trampa. estabas siendo monitoreada todo el tiempo y caiste a un agujero donde pasaras tus últimos días. :/",
+    opciones: []
+  },
+  {
+    id: 19,
+    descripcion: "Lees el diario y descubres que pertenecía a un prisionero que estuvo encarcelado en la habitación. El diario contiene pistas sobre cómo escapar. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Seguir las pistas del diario para intentar escapar.", siguienteId: 31 },
+      { id: 2, texto: "Guardar el diario y buscar más pistas en la habitación.", siguienteId: 32 }
+    ]
+  },
+  {
+    id: 20,
+    descripcion: "Guardas el diario y continuas buscando pistas en la habitación. Encuentras un mapa oculto que parece mostrar una salida secreta. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Seguir el mapa y buscar la salida secreta.", siguienteId: 33 },
+      { id: 2, texto: "Continuar buscando más pistas en la habitación.", siguienteId: 34 }
+    ]
+  },
+  {
+    id: 21,
+    descripcion: "Hablas con la figura y descubres que es un aliado que quiere ayudarte a escapar. Te revela la verdad sobre por qué estás allí y cómo puedes escapar. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Seguir el plan del aliado y escapar juntos.", siguienteId: 35 },
+      { id: 2, texto: "Desconfiar del aliado y buscar una salida por tu cuenta.", siguienteId: 36 }
+    ]
+  },
+  {
+    id: 22,
+    descripcion: "Atacas a la figura para defenderte, pero antes de que puedas hacerlo, la figura se desvanece en el aire, revelando que era una ilusión. Te quedas desconcertado y confundido. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Continuar explorando la habitación en busca de respuestas.", siguienteId: 37 },
+      { id: 2, texto: "Regresar a la habitación principal y buscar más pistas.", siguienteId: 38 }
+    ]
+  },
+  {
+    id: 23,
+    descripcion: "Investigas más sobre el significado de la nota y descubres que está vinculada a un antiguo complot que ha estado ocurriendo en la ciudad. ¿Qué decides hacer?",
+    opciones: [
+      { id: 1, texto: "Informar a las autoridades sobre el complot.", siguienteId: 39 },
+      { id: 2, texto: "Tratar de resolver el misterio por tu cuenta.", siguienteId: 40 }
+    ]
+  },
+  {
+    id: 24,
+    descripcion: "Ignoras la nota y buscas otra salida. Sin embargo, no encuentras ninguna otra salida y te das cuenta de que estás atrapado. Pronto llega un grupo de personas y al ver que intentas escapar te usan como arma para llevar a cabo su plan. eras un peon más. :/ ",
+    opciones: []
+  },
+  {
+    id: 25,
+    descripcion: "Informas a las autoridades sobre el complot y les ayudas a desmantelarlo. Pero no hay nadie en quien confiar. las autoridades desconfian de ti y te finalizan...",
+    opciones: []
+  },
+  {
+    id: 26,
+    descripcion: "Decides resolver el misterio por tu cuenta y descubres la verdad detrás del complot. No hay nadie afuera, eres el unico sobreviviente de una catastrofe... tarde o temprano morirás.",
+    opciones: []
+  },
+  {
+    id: 27,
+    descripcion: "Buscas una salida pero no la encuentras te das cuenta que estas atrapado en un juego de intriga y misterio mucho más grande de lo que imaginabas. Tu aventura está lejos de terminar.",
+    opciones: []
+  },
+  {
+    id: 28,
+    descripcion: "Investigas más para descubrir la verdad y te das cuenta de que estás atrapado en un juego de intriga y misterio mucho más grande de lo que imaginabas. Tu aventura está lejos de terminar.",
+    opciones: []
+  },
+  {
+    id: 29,
+    descripcion: "Esperas a que se vayan y luego sigues explorando el pasillo. Pero no encuentras nada ¿Que decides hacer?",
+    opciones: [
+    { id: 1, texto: "Volver a la habitacion a seguir explorando", siguienteId: 10 },
+    { id: 2, texto: "quedarme en el pasillo y esperar que llegue alguien", siguienteId: 41 }]
+  },
+  {
+    id: 30,
+    descripcion: "Intentas escapar mientras tienen la guardia baja, pero te descubren y te llevan de vuelta a tu celda. Tu intento de fuga fracasa y tu destino queda en manos de tus captores.",
+    opciones: []
+  },
+  {
+    id: 31,
+    descripcion: "Sigues las pistas del diario y descubres que en la habitacion debe haber una nota importante ¿Que haces?",
+    opciones: [
+      {id:1, texto: "Volver a la habitacion y seguir explorando", siguienteId:12},
+      {id:2, texto: "Ignoro el diario y voy al pasillo", siguienteId:18}
+    ]
+  },
+  {
+    id: 32,
+    descripcion: "Guardas el diario y buscas más pistas en la habitación. Encuentras una trampilla oculta que te lleva a una salida secreta. No era una salida, era un tunel con gases toxicos. No te diste cuenta cuando caiste dormida y no pudiste despertar nunca más. :/ muerte por envenamiento",
+    opciones: []
+  },
+  {
+    id: 33,
+    descripcion: "Sigues el mapa y encuentras la salida secreta. pero alto!! era una trampa. :/ terminas encerrada en una celda muy pequeña que poco a poco va cerrandose y termina por aplastarte....",
+    opciones: []
+  },
+  {
+    id: 34,
+    descripcion: "Continúas buscando más pistas en la habitación, pero no encuentras nada más y por la desesperación no te diste cuenta que alguien más habia llegado a la habitación. te toma por sorpresa y no recuerdas más. estás encadenada en la habitación por el resto de tus días...",
+    opciones: []
+  },
+  {
+    id: 35,
+    descripcion: "Sigues el plan del aliado pero era una trampa no existian aliados en ese lugar... En un momento que te distrajiste acabó contigo..."
+  },
+  {
+    id: 36,
+    descripcion: "Desconfías del aliado y decides buscar una salida por tu cuenta. Así que decides acabar con él, pero ambos quedan heridos de gravedad y no hay quien pueda salvarlos ... ",
+    opciones: []
+  },
+  {
+    id: 37,
+    descripcion: "Continúas explorando la habitación en busca de respuestas y descubres una puerta secreta detrás de una estantería. Al abrirla, se dispara un arma automatica que atraviesa tu cuerpo de pies a cabeza. Logran encontrarte despues de días pero nadie te reconoció ... :/ ",
+    opciones: []
+  },
+  {
+    id: 38,
+    descripcion: "Regresas a la habitación principal y buscas más pistas. Encuentras una carta que revela la verdad sobre por qué estás allí. Eres un arma, implantaron dentro de ti explosivos. Así que decides no seguir, te encierras en una trampilla de la habitacion y bloqueas las puertas. Nadie supo de ti hasta el momento...",
+    opciones: []
+  },
+  {
+    id: 39,
+    descripcion: "Informas a las autoridades sobre el complot y les ayudas a desmantelarlo. O eso esperabas, un policia en realidad era quien controlaba todo asi que decide eliminarte de su juego. :/",
+    opciones: []
+  },
+  {
+    id: 40,
+    descripcion: "Decides resolver el misterio por tu cuenta y descubres la verdad detrás del complot. Aunque tu aventura es peligrosa, logras salir victorioso y salvar a la ciudad de un destino terrible.",
+    opciones: []
+  },
+  {
+    id: 41,
+    descripcion: "Llegan varias personas que te ven a lo lejos y disparan a matar. Eran policias que recibieron la alerta de un grupo terrorista que estaban en ese edificio y eran muy peligrosos, te confundieron :/",
+    opciones: []
+  }
+];
+
+

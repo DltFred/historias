@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { historiaCumpleañosFantasia, historiaDefault, historiaSanValentin } from '../../util/historia'
+import { historiaCumpleañosFantasia, historiaDefault, historiaIntriga, historiaSanValentin } from '../../util/historia'
 import style from './index.module.css'
 
 const Terminal = () => {
@@ -10,7 +10,8 @@ const Terminal = () => {
   const [historiasDisponibles] = useState([
     { nombre: 'Cumpleaños en Fantasía', historia: historiaCumpleañosFantasia },
     { nombre: 'San valentin', historia: historiaSanValentin },
-    { nombre: 'Otra Historia', historia: historiaDefault }
+    { nombre: 'Otra Historia', historia: historiaDefault },
+    { nombre: 'Historia intriga', historia: historiaIntriga }
   ]);
   const handleChangeHistoria = (indice) => {
     setHistoriaSeleccionada(historiasDisponibles[indice].historia);
@@ -30,7 +31,7 @@ const Terminal = () => {
         setText(prevText => prevText + `${opcion.id}. ${opcion.texto}\n`);
       });
     } else {
-      setText(`${historiaActual.descripcion}\n\n\nFin del juego! <3`);
+      setText(`${historiaActual.descripcion}\n\n\nFin del juego!`);
     }
   }, [historiaActual]);
 
