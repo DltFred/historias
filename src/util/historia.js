@@ -128,7 +128,7 @@ export const historiaCumpleañosFantasia = [
     descripcion: "Mientras exploras el Bosque de las Maravillas, te encuentras con un anciano sabio que te ofrece un misterioso artefacto. ¿Lo aceptas?",
     opciones: [
       { id:1,texto: "Sí, acepto el artefacto.", siguienteId: 4 },
-      { id:2,texto: "Prefiero continuar mi exploración sin tomar riesgos.", sigue2nteId: 5 }
+      { id:2,texto: "Prefiero continuar mi exploración sin tomar riesgos.", siguenteId: 5 }
     ]
   },
   {
