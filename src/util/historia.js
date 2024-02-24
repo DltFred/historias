@@ -80,7 +80,7 @@ export const historiaSanValentin = [
     id: 2,
     descripcion: "Tu pareja se despierta con el aroma del desayuno y te abraza con amor. ¿Qué les dices?",
     opciones: [
-      { id:1,texto: "Le dices cuánto la amas y le das un regalo sorpresa.", siguie2nteId: 4 },
+      { id:1,texto: "Le dices cuánto la amas y le das un regalo sorpresa.", siguienteId: 4 },
       { id:2,texto: "Le das un beso y le dices que desayunen juntos.", siguienteId: 5 }
     ]
   },
@@ -88,7 +88,7 @@ export const historiaSanValentin = [
     id: 3,
     descripcion: "Corres a la tienda y encuentras una tienda de dulces. ¿Qué compras?",
     opciones: [
-      { id:1,texto: "Compras una caja de chocolates y un ramo de flores.", siguie2nteId: 6 },
+      { id:1,texto: "Compras una caja de chocolates y un ramo de flores.", siguienteId: 6 },
       { id:2,texto: "Compras una tarjeta de felicitación y un peluche.", siguienteId: 7 }
     ]
   },
@@ -128,7 +128,7 @@ export const historiaCumpleañosFantasia = [
     descripcion: "Mientras exploras el Bosque de las Maravillas, te encuentras con un anciano sabio que te ofrece un misterioso artefacto. ¿Lo aceptas?",
     opciones: [
       { id:1,texto: "Sí, acepto el artefacto.", siguienteId: 4 },
-      { id:2,texto: "Prefiero continuar mi exploración sin tomar riesgos.", siguenteId: 5 }
+      { id:2,texto: "Prefiero continuar mi exploración sin tomar riesgos.", siguienteId: 5 }
     ]
   },
   {
