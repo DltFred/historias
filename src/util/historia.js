@@ -117,7 +117,7 @@ export const historiaSanValentin = [
 export const historiaCumpleañosFantasia = [
   {
     id: 1,
-    descripcion: "Hola Sofía, hoy es 18 de febrero en el reino de Aetheria, un lugar donde la magia fluye por doquier y las criaturas mágicas son parte de la vida cotidiana. ¿Qué decides hacer para comenzar tu día especial?",
+    descripcion: "Hola Sofía!, hoy es 18 de febrero en el reino de Aetheria, un lugar donde la magia fluye por doquier y las criaturas mágicas son parte de la vida cotidiana. ¿Qué decides hacer para comenzar tu día especial?",
     opciones: [
       { id:1,texto: "Explorar el Bosque de las Maravillas en busca de aventuras.", siguienteId: 2 },
       { id:2,texto: "Unirte a la celebración del Gran Festival de Cumpleaños en la plaza del pueblo.", siguienteId: 3 }
