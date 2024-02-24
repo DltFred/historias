@@ -3,7 +3,6 @@ import { historiaCumpleañosFantasia, historiaDefault, historiaSanValentin } fro
 import style from './index.module.css'
 
 const Terminal = () => {
-  const HISTORIA = historiaCumpleañosFantasia
   const [text, setText] = useState('');
   const [input, setInput] = useState('');
   const [historiaSeleccionada, setHistoriaSeleccionada] = useState(null);
@@ -14,11 +13,11 @@ const Terminal = () => {
     { nombre: 'Otra Historia', historia: historiaDefault }
   ]);
   const handleChangeHistoria = (indice) => {
-    setHistoriaSeleccionada(historiasDisponibles[indice].historia[0]);
+    setHistoriaSeleccionada(historiasDisponibles[indice].historia);
   };
   useEffect(()=>{
     console.log({historiaSeleccionada});
-    historiaSeleccionada != null && setHistoriaActual(historiaSeleccionada)
+    historiaSeleccionada != null && setHistoriaActual(historiaSeleccionada[0])
   },[historiaSeleccionada])
   
 
@@ -26,7 +25,7 @@ const Terminal = () => {
     if(historiaActual == null) return
     if (historiaActual.opciones && historiaActual.opciones.length > 0) {
       setText(`${historiaActual.descripcion}\n`);
-      console.log(historiaActual);
+      console.log({historiaActual});
       historiaActual.opciones.forEach((opcion) => {
         setText(prevText => prevText + `${opcion.id}. ${opcion.texto}\n`);
       });
@@ -40,7 +39,7 @@ const Terminal = () => {
     e.preventDefault();
     const opcionSeleccionada = historiaActual.opciones.find(opcion => opcion.id.toString() === input.toLowerCase());
     if (opcionSeleccionada) {
-      const siguientePaso = HISTORIA.find(paso => paso.id === opcionSeleccionada.siguienteId);
+      const siguientePaso = historiaSeleccionada.find(paso => paso.id === opcionSeleccionada.siguienteId);
       setHistoriaActual(siguientePaso);
     } else {
       setText(prevText => prevText + "Opción no válida. Por favor, selecciona una opción válida.\n");
